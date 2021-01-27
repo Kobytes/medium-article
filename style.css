@@ -1,0 +1,85 @@
+body
+{
+     color: #494949;
+     font-size: 20px;
+     line-height: 2;
+     font-weight: 300;
+     font-family: 'Fraunces', serif;
+     margin: 0;
+}
+
+.banner
+{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FQtMclzIAd9c%2Fmaxresdefault.jpg&f=1&nofb=1");
+    background-size: cover;
+    color: #fff;
+    padding: 120px 0;
+}
+
+.banner h1
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.banner p
+{
+    font-size: 30px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.container
+{
+    width: 700px;
+    margin: 50px auto;
+}
+
+h2
+{
+    color: #4a4e69;
+    font-weight: 500;
+}
+
+.link-medium
+{
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* --- MEDIA --- */
+
+@media(max-width: 1200px)
+{
+    .container
+    {
+        width: 900px;
+    }
+}
+
+@media(max-width: 992px)
+{
+    .container
+    {
+        width: 700px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .container
+    {
+        width: 500px;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .container
+    {
+        width: 300px;
+    }
+}
